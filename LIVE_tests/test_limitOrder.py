@@ -18,7 +18,7 @@ hold_min = 1
 
 lo =  limitOrder(
     order_direction = "BUY",
-    price = '0.04507',
+    price = '0.053',
     qty = min_qty,
     symbol = symbol,
     hold_min = hold_min,
@@ -31,3 +31,4 @@ order_dict = lo.deploy_timeout_limit_order()
 
 
 print([(x,order_dict[x]) for x in order_dict])
+
