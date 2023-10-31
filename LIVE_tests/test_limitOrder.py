@@ -15,7 +15,6 @@ hold_min = 1
 
 
 
-
 lo =  limitOrder(
     order_direction = "BUY",
     price = '0.053',
