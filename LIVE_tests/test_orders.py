@@ -22,6 +22,8 @@ current_price = float(client.get_order_book(symbol=symbol,limit=1)['bids'][0][0]
 stop_loss_price = str(round(current_price*0.96,5))
 take_profit_price = str(round(current_price*1.05,5))
 
+stop_loss_small = str(round(current_price*0.9999,5))
+
 
 
 ######################################## STOP_LOSS_LIMIT
